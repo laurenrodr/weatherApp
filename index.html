@@ -6,20 +6,21 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
         <link rel="stylesheet" href="./style.css">
         <title>Weather App</title>
+        <script src="skycons.js"></script>
+        <script src="app.js"></script>
     </head>
     <body>
-        <script type="text/javascript" src="app.js"></script>
 
         <div class="location">
-            <h1 class="location-timezone">Timezone</h1>
-            <p>Icon</p>
+            <h1 class="location-timezone"></h1>
+            <canvas class="icon" width="128" height="128"></canvas>
         </div>
         <div class="temperature">
             <div class="degrees">
-                <h2 class="temp-degrees">34</h2>
+                <h2 class="temp-degrees"></h2>
                 <span>F</span>
             </div>
-            <div class="temp-desc">It's Cold</div>
         </div>
+        <div class="temp-desc"></div>
     </body>
 </html>
