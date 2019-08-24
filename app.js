@@ -34,7 +34,7 @@ window.addEventListener("load", function(){
                     setIcons(icon, document.querySelector(".icon"))
 
                     //hides weather information until geolocation is found
-                    document.getElementsByTagName("html")[0].style.visibility = "visible";
+                    document.getElementsByClassName("main-content")[0].style.visibility = "visible";
 
                     //Celsius Formula
                     //here temperature = farenheit
