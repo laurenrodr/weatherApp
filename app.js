@@ -11,6 +11,7 @@ window.addEventListener("load", function(){
     const tempSpan = document.querySelector('.degrees span')
     if(navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position){
+            document.getElementsByClassName("preload")[0].style.visibility = "visible";
             lon = position.coords.longitude;
             lat = position.coords.latitude;
 
@@ -34,6 +35,7 @@ window.addEventListener("load", function(){
                     setIcons(icon, document.querySelector(".icon"))
 
                     //hides weather information until geolocation is found
+                    document.getElementsByClassName("preload")[0].style.visibility = "hidden";
                     document.getElementsByClassName("main-content")[0].style.visibility = "visible";
 
                     //Celsius Formula
