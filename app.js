@@ -50,7 +50,7 @@ window.addEventListener("load", function(){
                         }
                         else {
                             tempSpan.textContent = "F";
-                            tempDegrees.textContent = temperature;
+                            tempDegrees.textContent = Math.floor(temperature);
                         }
                     });
                 });
