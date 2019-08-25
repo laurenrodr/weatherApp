@@ -16,7 +16,7 @@ body {
     overflow: hidden;
 }
 
-.preload {
+.preload { 
     visibility: hidden;
     display: flex;
     justify-content: center;
