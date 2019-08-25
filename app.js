@@ -2,6 +2,7 @@
 //uses https://cors-anywhere.herokuapp.com/ for proxy
 //uses https://github.com/darkskyapp/skycons for icons
 window.addEventListener("load", function(){
+    document.getElementsByClassName("preload")[0].style.visibility = "visible";
     let lon;
     let lat;
     let tempDesc = document.querySelector('.temp-desc');
@@ -11,7 +12,6 @@ window.addEventListener("load", function(){
     const tempSpan = document.querySelector('.degrees span')
     if(navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position){
-            document.getElementsByClassName("preload")[0].style.visibility = "visible";
             lon = position.coords.longitude;
             lat = position.coords.latitude;
 
