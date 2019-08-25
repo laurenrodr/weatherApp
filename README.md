@@ -8,3 +8,4 @@ A web-based weather application, which determines the weather at your current lo
 * Brief description of current weather
 * Icon representing weather description
 
+### Example
