@@ -18,6 +18,17 @@ body {
 
 .preload {
     visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 /* preloader spinner */
 .spinner {
@@ -27,12 +38,11 @@ body {
     border-top: 3px solid #7886b8;
     border-radius: 100%;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
     animation: spin 1s infinite linear;
+}
+
+.load-msg {
+    margin-top: 160px;
 }
 
 @keyframes spin {
