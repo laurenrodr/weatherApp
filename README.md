@@ -9,3 +9,7 @@ A web-based weather application, which determines the weather at your current lo
 * Icon representing weather description
 
 ### Example
+![New York Timezone Example](https://github.com/laurenrodr/weatherApp/blob/mainBranch/weatherAppEx.png)
+
+##### Pending
+* Add text alert functionality
