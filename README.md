@@ -1,5 +1,5 @@
 # Weather App
-A web-based weather application, which determines the weather at your current location
+A web-based weather application, which determines the weather at your current location using darksky API
 
 ### Features
 * Timezone
