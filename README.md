@@ -11,7 +11,7 @@ https://laurenrodr.github.io/weatherApp/
 * Icon representing weather description
 
 ### Example
-![New York Timezone Example](https://github.com/laurenrodr/weatherApp/blob/main/weatherAppEx.png)
+![New York Timezone Example](https://github.com/laurenrodr/weatherApp/blob/master/weatherAppEx.png)
 
 ##### Pending
 * add ability to search for location(s)
