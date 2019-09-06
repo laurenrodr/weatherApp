@@ -1,6 +1,8 @@
 # Weather App
 A web-based weather application, which determines the weather at your current location using darksky API
 
+https://laurenrodr.github.io/weatherApp/
+
 ### Features
 * Timezone
 * Temperature -- available in both Celsius and Fahrenheit
@@ -9,7 +11,7 @@ A web-based weather application, which determines the weather at your current lo
 * Icon representing weather description
 
 ### Example
-![New York Timezone Example](https://github.com/laurenrodr/weatherApp/blob/mainBranch/weatherAppEx.png)
+![New York Timezone Example](https://github.com/laurenrodr/weatherApp/blob/main/weatherAppEx.png)
 
 ##### Pending
 * add ability to search for location(s)
