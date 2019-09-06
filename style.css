@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#ecd8d9, #b87886);
+    font-family: sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.preload { 
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* preloader spinner */
+.spinner {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #f3f3f3;
+    border-top: 3px solid #7886b8;
+    border-radius: 100%;
+    position: absolute;
+    animation: spin 1s infinite linear;
+}
+
+.load-msg {
+    margin-top: 160px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* main content */
+.main-content {
+    visibility: hidden;
+}
+
+.location,
+.temperature {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.degrees {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degrees span {
+    margin-left: 10px;
+    font-size:  30px;
+}
+
+.degrees h2 {
+    font-size: 40px;
+}
+
+.icon {
+    padding-left: 20px;
+}
