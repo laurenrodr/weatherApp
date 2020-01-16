@@ -87,6 +87,16 @@ body {
     font-size: 40px;
 }
 
+.rise-time {
+    display: flex;
+    align-items: center;
+}
+
+.set-time{
+    display: flex;
+    align-items: center;
+}
+
 .icon {
     padding-left: 20px;
 }
@@ -97,7 +107,7 @@ body {
     bottom: -100px;
 }
 
-#darksky a {
+#darksky span {
     color: #191919;
     text-decoration: none;
     font-size: 10px;
