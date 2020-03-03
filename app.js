@@ -47,7 +47,7 @@ window.addEventListener("load", function(){
                     document.getElementsByClassName("main-content")[0].style.visibility = "visible";
 
                     //Celsius Formula
-                    //here temperature = farenheit
+                    //temperature = farenheit
                     let celsius = (temperature - 32) * (5 / 9);
 
                     //change temperature to Celsius
