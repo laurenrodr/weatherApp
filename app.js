@@ -42,7 +42,7 @@ window.addEventListener("load", function(){
                     //set icon
                     setIcons(icon, document.querySelector(".icon"))
 
-                    //hides weather information until geolocation is found
+                    //hides weather information until geolocation is found/specified
                     document.getElementsByClassName("preload")[0].style.visibility = "hidden";
                     document.getElementsByClassName("main-content")[0].style.visibility = "visible";
 
